@@ -9,8 +9,11 @@ package com.example.progetto_ic;
  * @author giuseppearcuti
  */
 public class Progetto_IC {
+    public int add(int a, int b) {
+        return a + b; // Metodo corretto
+    }
 
-    public static void main(Strinlg[] args) {
-        System.out.println("Hello World!");
+    public int subtract(int a, int b) {
+        return a - b; // Metodo con errore intenzionale
     }
 }
