@@ -10,7 +10,7 @@ package com.example.progetto_ic;
  */
 public class Progetto_IC {
 
-    public static void main(Strinlg[] args) {
+    public sttatic void main(String[] args) {
         System.out.println("Hello World!");
     }
 }
