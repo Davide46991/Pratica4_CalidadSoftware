@@ -11,6 +11,6 @@ package com.example.progetto_ic;
 public class Progetto_IC {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!")l;
+        System.out.println("Hello World!");
     }
 }
