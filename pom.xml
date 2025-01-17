@@ -16,7 +16,7 @@
         <!-- Configurazioni SonarQube -->
         <sonar.host.url>http://localhost:9000</sonar.host.url>
         <sonar.projectKey>Progetto_IC</sonar.projectKey>
-        <sonar.login>squ_177af751acc4b0a85e2e4224be7839b40da5c733</sonar.login>
+        <sonar.login>sqp_b91a19966dfcd9aa46a166d06d134b0bee0a76ef</sonar.login>
     </properties>
 
     <dependencies>
