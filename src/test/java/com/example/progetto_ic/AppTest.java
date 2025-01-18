@@ -16,6 +16,6 @@ public class AppTest {
     @Test
     public void testSubtract() {
         Progetto_IC app = new Progetto_IC();
-        Assert.assertEquals(2, app.subtract(3, 2)); // Test che fallirà intenzionalmente
+        Assert.assertEquals(1, app.subtract(3, 2)); // Test che fallirà intenzionalmente
     }
 }
