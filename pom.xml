@@ -90,11 +90,13 @@
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.8</version>
                 <executions>
+                    <!-- Prepara l'agente per raccogliere la copertura -->
                     <execution>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
+                    <!-- Genera il report XML e HTML nella fase 'verify' -->
                     <execution>
                         <id>report</id>
                         <phase>verify</phase>
@@ -103,6 +105,11 @@
                         </goals>
                         <configuration>
                             <outputDirectory>${project.build.directory}/site/jacoco</outputDirectory>
+                            <dataFile>${project.build.directory}/jacoco.exec</dataFile>
+                            <reports>
+                                <xml enabled="true" destFile="${project.build.directory}/site/jacoco/jacoco.xml"/>
+                                <html enabled="true" outputDirectory="${project.build.directory}/site/jacoco"/>
+                            </reports>
                         </configuration>
                     </execution>
                 </executions>
